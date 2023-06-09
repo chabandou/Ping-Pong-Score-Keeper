@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ping-Pong Score Keeper</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <div class="img">
+        <img
+          class="image"
+          src="images/depositphotos_329820216-stock-illustration-vector-illustration-ping-pong-table.jpg"
+          alt=""
+        />
+      </div>
+      <div class="main-heading">
+        <h1>Ping-Pong Score Keeper</h1>
+      </div>
+      <div class="scores">
+        <span id="p1Display">0</span><span> to </span
+        ><span id="p2Display">0</span>
+      </div>
+      <div class="rounds">
+        <svg
+          id="r1Empty"
+          fill="#000000"
+          height="15px"
+          width="15px"
+          version="1.1"
+          id="Capa_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 300.00 300.00"
+          xml:space="preserve"
+          stroke="#000000"
+          stroke-width="0.003"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M150,0C67.29,0,0,67.29,0,150s67.29,150,150,150s150-67.29,150-150S232.71,0,150,0z M150,270c-66.169,0-120-53.832-120-120 S83.831,30,150,30s120,53.832,120,120S216.168,270,150,270z"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          id="r1Full"
+          class="rounds-full"
+          width="21.5px"
+          height="21.5px"
+          viewBox="0 0 24 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+              fill="#000000"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          id="r2Empty"
+          fill="#000000"
+          height="15px"
+          width="15px"
+          version="1.1"
+          id="Capa_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 300.00 300.00"
+          xml:space="preserve"
+          stroke="#000000"
+          stroke-width="0.003"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M150,0C67.29,0,0,67.29,0,150s67.29,150,150,150s150-67.29,150-150S232.71,0,150,0z M150,270c-66.169,0-120-53.832-120-120 S83.831,30,150,30s120,53.832,120,120S216.168,270,150,270z"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          id="r2Full"
+          class="rounds-full"
+          width="21.5px"
+          height="21.5px"
+          viewBox="0 0 24 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+              fill="#000000"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          id="r3Empty"
+          fill="#000000"
+          height="15px"
+          width="15px"
+          version="1.1"
+          id="Capa_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 300.00 300.00"
+          xml:space="preserve"
+          stroke="#000000"
+          stroke-width="0.003"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M150,0C67.29,0,0,67.29,0,150s67.29,150,150,150s150-67.29,150-150S232.71,0,150,0z M150,270c-66.169,0-120-53.832-120-120 S83.831,30,150,30s120,53.832,120,120S216.168,270,150,270z"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          id="r3Full"
+          class="rounds-full"
+          width="21.5px"
+          height="21.5px"
+          viewBox="0 0 24 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+              fill="#000000"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="playing-to">
+        <label for="maxScore">Playing to:</label>
+        <select name="max-score" id="maxScore">
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+        </select>
+      </div>
+
+      <div class="toggle">
+        <p>Best of three</p>
+        <label class="switch">
+          <input type="checkbox" id="botToggle" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <div class="buttons">
+        <button class="control p1" id="p1Plus">+1 Player one</button>
+        <button class="control p2" id="p2Plus">+1 Player two</button>
+        <button class="control reset" id="reset">Reset</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
