@@ -169,13 +169,13 @@ button {
   }
 
 
-@media (max-width: 37.5em) {
+@media (max-width: 40.7em) {
     main {
         width: 75%;
     }    
 }
 
-@media (max-width: 19em) {
+@media (max-width: 28.2em) {
     main {
         width: 100%;
     }
