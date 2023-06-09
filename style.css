@@ -174,3 +174,9 @@ button {
         width: 50%;
     }    
 }
+
+@media (max-width: 19em) {
+    main {
+        width: 100%;
+    }
+}
